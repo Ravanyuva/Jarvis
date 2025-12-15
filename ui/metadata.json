@@ -1,0 +1,8 @@
+{
+  "name": "YUVA Interface",
+  "description": "YUVA: Your Ultimate Virtual Assistant. A highly interactive, voice-enabled AI interface featuring system control simulation and holographic UI.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

@@ -1,0 +1,402 @@
+[PARSE] Input: 'shutdown pc'
+[PARSE] Input: 'shutdown my laptop'
+[PARSE] Input: 'please restart the computer'
+[PARSE] Input: 'go to sleep mode'
+[PARSE] Input: 'shutdown yourself'
+[PARSE] Input: 'shutdown pc'
+[PARSE] Input: 'shutdown my laptop'
+[PARSE] Input: 'please restart the computer'
+[PARSE] Input: 'go to sleep mode'
+[PARSE] Input: 'shutdown yourself'
+[PARSE] Input: 'shutdown pc'
+[PARSE] Input: 'shutdown my laptop'
+[PARSE] Input: 'please restart the computer'
+[PARSE] Input: 'go to sleep mode'
+[PARSE] Input: 'shutdown yourself'
+[PARSE] Input: 'hello'
+[HANDLE] Intent: greeting, Data: {'raw': 'hello', 'type': 'greeting'}
+[PARSE] Input: 'hello'
+[HANDLE] Intent: greeting, Data: {'raw': 'hello', 'type': 'greeting'}
+[PARSE] Input: 'virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'not activated'
+[HANDLE] Intent: unknown, Data: {'raw': 'not activated', 'type': 'unknown'}
+[PARSE] Input: 'virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 21:39:43.537262: hello open Virtual Keyboard
+[PARSE] Input: 'hello open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'hello open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 21:40:46.819565: Virtual Keyboard activation
+[PARSE] Input: 'virtual keyboard activation'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard activation', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 21:41:30.772111: open WhatsApp
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-08 21:41:39.012535: send a message to Hema
+[PARSE] Input: 'send a message to hema'
+[HANDLE] Intent: whatsapp_msg, Data: {'raw': 'send a message to hema', 'type': 'whatsapp_msg', 'msg': 'a message', 'contact': 'hema'}
+[PARSE] Input: 'clear all'
+[HANDLE] Intent: unknown, Data: {'raw': 'clear all', 'type': 'unknown'}
+[LISTEN] 2025-12-08 21:43:44.476937: open YouTube
+[PARSE] Input: 'open youtube'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube', 'type': 'open_something', 'target': 'youtube'}
+[LISTEN] 2025-12-08 21:43:53.281903: open WhatsApp
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-08 21:44:46.239235: open YouTube
+[PARSE] Input: 'open youtube'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube', 'type': 'open_something', 'target': 'youtube'}
+[LISTEN] 2025-12-08 21:44:54.620320: open WhatsApp
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-08 21:45:08.088339: search for carryminati
+[PARSE] Input: 'search for carryminati'
+[HANDLE] Intent: web_search, Data: {'raw': 'search for carryminati', 'type': 'web_search', 'query': 'for carryminati'}
+[LISTEN] 2025-12-08 21:50:50.969535: shutdown
+[PARSE] Input: 'shutdown'
+[HANDLE] Intent: unknown, Data: {'raw': 'shutdown', 'type': 'unknown'}
+[PARSE] Input: 'shutdown system'
+[PARSE] Input: 'turn off pc'
+[PARSE] Input: 'shutdown computer'
+[PARSE] Input: 'virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 22:06:57.898252: activate virtual keyboard
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'activate vision'
+[PARSE] Input: 'enable virtual keyboard'
+[PARSE] Input: 'start mouse control'
+[PARSE] Input: 'gesture control'
+[PARSE] Input: 'enable vision'
+[LISTEN] 2025-12-08 22:09:13.864564: attitude
+[PARSE] Input: 'attitude'
+[HANDLE] Intent: unknown, Data: {'raw': 'attitude', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:09:25.421767: activate virtual keyboard
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 22:11:48.554548: cat picture keyboard
+[PARSE] Input: 'cat picture keyboard'
+[HANDLE] Intent: unknown, Data: {'raw': 'cat picture keyboard', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:11:56.692934: activate virtual keyboard
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-08 22:12:49.224120: open WhatsApp
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-08 22:12:56.714977: shutdown
+[PARSE] Input: 'shutdown'
+[HANDLE] Intent: unknown, Data: {'raw': 'shutdown', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:13:13.754008: down the laptop shutdown the laptop
+[PARSE] Input: 'down the laptop shutdown the laptop'
+[HANDLE] Intent: system_control, Data: {'raw': 'down the laptop shutdown the laptop', 'type': 'system_control', 'action': 'shutdown'}
+[LISTEN] 2025-12-08 22:13:25.443270: turn on the laptop
+[PARSE] Input: 'turn on the laptop'
+[HANDLE] Intent: unknown, Data: {'raw': 'turn on the laptop', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:47:17.193259: hello hello
+[PARSE] Input: 'hello hello'
+[HANDLE] Intent: unknown, Data: {'raw': 'hello hello', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:47:32.039059: open YouTube please
+[PARSE] Input: 'open youtube please'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube please', 'type': 'open_something', 'target': 'youtube please'}
+[LISTEN] 2025-12-08 22:47:40.927280: open YouTube
+[PARSE] Input: 'open youtube'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube', 'type': 'open_something', 'target': 'youtube'}
+[LISTEN] 2025-12-08 22:47:50.643709: open YouTube please
+[PARSE] Input: 'open youtube please'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube please', 'type': 'open_something', 'target': 'youtube please'}
+[LISTEN] 2025-12-08 22:49:21.097697: open command prompt
+[PARSE] Input: 'open command prompt'
+[HANDLE] Intent: open_something, Data: {'raw': 'open command prompt', 'type': 'open_something', 'target': 'command prompt'}
+[LISTEN] 2025-12-08 22:49:35.354619: open Command Prompt as administrator
+[PARSE] Input: 'open command prompt as administrator'
+[HANDLE] Intent: open_something, Data: {'raw': 'open command prompt as administrator', 'type': 'open_something', 'target': 'command prompt as administrator'}
+[LISTEN] 2025-12-08 22:50:05.989851: play Ishq song
+[PARSE] Input: 'play ishq song'
+[HANDLE] Intent: play_music, Data: {'raw': 'play ishq song', 'type': 'play_music', 'song': 'ishq song'}
+[LISTEN] 2025-12-08 22:50:20.108920: play Ishq song from YouTube
+[PARSE] Input: 'play ishq song from youtube'
+[HANDLE] Intent: play_music, Data: {'raw': 'play ishq song from youtube', 'type': 'play_music', 'song': 'ishq song from youtube'}
+[LISTEN] 2025-12-08 22:50:36.586376: Ishq song in YouTube and play
+[PARSE] Input: 'ishq song in youtube'
+[HANDLE] Intent: unknown, Data: {'raw': 'ishq song in youtube', 'type': 'unknown'}
+[PARSE] Input: 'play'
+[HANDLE] Intent: unknown, Data: {'raw': 'play', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:50:49.642079: Ishq song YouTube
+[PARSE] Input: 'ishq song youtube'
+[HANDLE] Intent: unknown, Data: {'raw': 'ishq song youtube', 'type': 'unknown'}
+[LISTEN] 2025-12-08 22:50:58.881170: play Ishq song YouTube
+[PARSE] Input: 'play ishq song youtube'
+[HANDLE] Intent: play_music, Data: {'raw': 'play ishq song youtube', 'type': 'play_music', 'song': 'ishq song youtube'}
+[LISTEN] 2025-12-08 22:52:17.421548: open Virtual Keyboard
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: open_something, Data: {'raw': 'open virtual keyboard', 'type': 'open_something', 'target': 'virtual keyboard'}
+[LISTEN] 2025-12-08 22:53:03.933713: virtual keyboard
+[PARSE] Input: 'virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'open mongodb'
+[HANDLE] Intent: open_something, Data: {'raw': 'open mongodb', 'type': 'open_something', 'target': 'mongodb'}
+[PARSE] Input: 'open filemanager'
+[HANDLE] Intent: open_something, Data: {'raw': 'open filemanager', 'type': 'open_something', 'target': 'filemanager'}
+[PARSE] Input: 'open file explorer'
+[HANDLE] Intent: open_something, Data: {'raw': 'open file explorer', 'type': 'open_something', 'target': 'file explorer'}
+[PARSE] Input: 'open youtube'
+[PARSE] Input: 'open youtube please'
+[PARSE] Input: 'can you play some music'
+[PARSE] Input: 'shutdown the system please'
+[PARSE] Input: 'what is the time'
+[PARSE] Input: 'open youtube'
+[PARSE] Input: 'open youtube please'
+[PARSE] Input: 'can you play some music'
+[PARSE] Input: 'shutdown the system please'
+[PARSE] Input: 'what is the time'
+[PARSE] Input: 'open youtube'
+[PARSE] Input: 'open youtube please'
+[PARSE] Input: 'can you play some music'
+[PARSE] Input: 'shutdown the system please'
+[PARSE] Input: 'what is the time'
+[PARSE] Input: 'open youtube'
+[PARSE] Input: 'open youtube please'
+[PARSE] Input: 'can you play some music'
+[PARSE] Input: 'shutdown the system please'
+[PARSE] Input: 'what is the time'
+[PARSE] Input: 'open virtual keyboard'
+[PARSE] Input: 'virtual keyboard'
+[PARSE] Input: 'shutdown'
+[PARSE] Input: 'play ishq song from youtube'
+[PARSE] Input: 'shutdown laptop'
+[HANDLE] Intent: system_control, Data: {'raw': 'shutdown laptop', 'type': 'system_control', 'action': 'shutdown'}
+[LISTEN] 2025-12-09 10:27:16.659024: all the apps
+[PARSE] Input: 'all the apps'
+[HANDLE] Intent: unknown, Data: {'raw': 'all the apps', 'type': 'unknown'}
+[LISTEN] 2025-12-09 10:27:39.302194: close this tab is your data and content in
+[PARSE] Input: 'close this tab is your data'
+[HANDLE] Intent: unknown, Data: {'raw': 'close this tab is your data', 'type': 'unknown'}
+[PARSE] Input: 'content in'
+[HANDLE] Intent: unknown, Data: {'raw': 'content in', 'type': 'unknown'}
+[PARSE] Input: 'close all the application'
+[HANDLE] Intent: unknown, Data: {'raw': 'close all the application', 'type': 'unknown'}
+[PARSE] Input: 'on youtube'
+[HANDLE] Intent: unknown, Data: {'raw': 'on youtube', 'type': 'unknown'}
+[PARSE] Input: 'open youtube'
+[HANDLE] Intent: open_something, Data: {'raw': 'open youtube', 'type': 'open_something', 'target': 'youtube'}
+[PARSE] Input: 'shutdown'
+[HANDLE] Intent: system_control, Data: {'raw': 'shutdown', 'type': 'system_control', 'action': 'shutdown'}
+[LISTEN] 2025-12-09 11:02:55.134643: shut down shut
+[PARSE] Input: 'shut down shut'
+[HANDLE] Intent: unknown, Data: {'raw': 'shut down shut', 'type': 'unknown'}
+[LISTEN] 2025-12-09 11:03:16.265033: shutdown the laptop
+[PARSE] Input: 'shutdown the laptop'
+[HANDLE] Intent: system_control, Data: {'raw': 'shutdown the laptop', 'type': 'system_control', 'action': 'shutdown'}
+[PARSE] Input: 'who is ankit'
+[HANDLE] Intent: web_search, Data: {'raw': 'who is ankit', 'type': 'web_search', 'query': 'who is ankit'}
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'its not activated'
+[AI-NLU] Input: 'its not activated' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[PARSE] Input: 'open virtual keyboard''
+[HANDLE] Intent: vision_control, Data: {'raw': "open virtual keyboard'", 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'explai c basics'
+[AI-NLU] Input: 'explai c basics' -> Output: {'type': 'web_search', 'query': 'explain c basics'}
+[HANDLE] Intent: web_search, Data: {'type': 'web_search', 'query': 'explain c basics'}
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'vision system in keyboard mode'
+[AI-NLU] Input: 'vision system in keyboard mode' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[PARSE] Input: 'make me laugh'
+[AI-NLU] Input: 'make me laugh' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[PARSE] Input: 'tell me a joke'
+[AI-NLU] Input: 'tell me a joke' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-09 20:51:33.832458: activate virtual keyboard
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-09 20:52:21.883236: activate virtual keyboard
+[PARSE] Input: 'activate virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'activate virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-09 20:53:27.596433: close the vision system keyboard
+[PARSE] Input: 'close the vision system keyboard'
+[PARSE] Input: 'close the virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'close the virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'close virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'close virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[PARSE] Input: 'close'
+[AI-NLU] Input: 'close the vision system keyboard' -> Output: {'type': 'system_control', 'action': 'stop'}
+[HANDLE] Intent: system_control, Data: {'type': 'system_control', 'action': 'stop'}
+[AI-NLU] Input: 'close' -> Output: {'type': 'exit'}
+[HANDLE] Intent: exit, Data: {'type': 'exit'}
+[HANDLE] Intent: memory_set, Data: {'type': 'memory_set', 'key': 'user_name', 'value': 'Tony Stark'}
+[LISTEN] 2025-12-13 15:20:48.018407: Notepad please
+[PARSE] Input: 'notepad please'
+[AI-NLU] Input: 'notepad please' -> Output: {'type': 'open_something', 'target': 'notepad'}
+[HANDLE] Intent: open_something, Data: {'type': 'open_something', 'target': 'notepad'}
+[LISTEN] 2025-12-13 15:22:14.361867: enable vision
+[PARSE] Input: 'enable vision'
+[HANDLE] Intent: vision_control, Data: {'raw': 'enable vision', 'type': 'vision_control', 'action': 'start', 'mode': 'monitoring'}
+[LISTEN] 2025-12-13 15:22:39.858698: close vision
+[PARSE] Input: 'close vision'
+[AI-NLU] Input: 'close vision' -> Output: {'type': 'vision_control', 'action': 'stop', 'mode': 'monitoring'}
+[HANDLE] Intent: vision_control, Data: {'type': 'vision_control', 'action': 'stop', 'mode': 'monitoring'}
+[LISTEN] 2025-12-13 15:23:15.287640: search for this song
+[PARSE] Input: 'search for this song'
+[HANDLE] Intent: web_search, Data: {'raw': 'search for this song', 'type': 'web_search', 'query': 'for this song'}
+[LISTEN] 2025-12-13 15:23:41.296300: open camera and click my picture
+[PARSE] Input: 'open camera'
+[HANDLE] Intent: open_something, Data: {'raw': 'open camera', 'type': 'open_something', 'target': 'camera'}
+[PARSE] Input: 'click my picture'
+[AI-NLU] Input: 'click my picture' -> Output: {'type': 'vision_control', 'action': 'start', 'mode': 'monitoring'}
+[HANDLE] Intent: vision_control, Data: {'type': 'vision_control', 'action': 'start', 'mode': 'monitoring'}
+[LISTEN] 2025-12-13 15:24:01.058285: close camera
+[PARSE] Input: 'close camera'
+[HANDLE] Intent: vision_control, Data: {'raw': 'close camera', 'type': 'vision_control', 'action': 'stop'}
+[LISTEN] 2025-12-13 15:24:22.483488: open Virtual Keyboard
+[PARSE] Input: 'open virtual keyboard'
+[HANDLE] Intent: vision_control, Data: {'raw': 'open virtual keyboard', 'type': 'vision_control', 'action': 'start', 'mode': 'keyboard'}
+[LISTEN] 2025-12-13 15:24:42.632468: download GTA V
+[PARSE] Input: 'download gta v'
+[HANDLE] Intent: download, Data: {'raw': 'download gta v', 'type': 'download', 'url': 'gta v'}
+[LISTEN] 2025-12-13 15:25:02.292917: open Notepad and write hello world
+[PARSE] Input: 'open notepad'
+[HANDLE] Intent: open_something, Data: {'raw': 'open notepad', 'type': 'open_something', 'target': 'notepad'}
+[PARSE] Input: 'write hello world'
+[HANDLE] Intent: keyboard_type, Data: {'raw': 'write hello world', 'type': 'keyboard_type', 'text': 'hello world'}
+[LISTEN] 2025-12-13 15:25:30.044137: open WhatsApp and send hi to Subbi
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[PARSE] Input: 'send hi to subbi'
+[HANDLE] Intent: whatsapp_msg, Data: {'raw': 'send hi to subbi', 'type': 'whatsapp_msg', 'msg': 'hi', 'contact': 'subbi'}
+[LISTEN] 2025-12-13 15:25:39.769805: send hi to Shubhi
+[PARSE] Input: 'send hi to shubhi'
+[HANDLE] Intent: whatsapp_msg, Data: {'raw': 'send hi to shubhi', 'type': 'whatsapp_msg', 'msg': 'hi', 'contact': 'shubhi'}
+[LISTEN] 2025-12-13 15:25:57.279646: open swiggy
+[PARSE] Input: 'open swiggy'
+[HANDLE] Intent: open_something, Data: {'raw': 'open swiggy', 'type': 'open_something', 'target': 'swiggy'}
+[LISTEN] 2025-12-13 15:26:44.609520: say I love you
+[PARSE] Input: 'say i love you'
+[AI-NLU] Input: 'say i love you' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[LISTEN] 2025-12-13 15:27:07.012000: open WhatsApp
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-13 15:27:14.036691: WhatsApp
+[PARSE] Input: 'whatsapp'
+[AI-NLU] Input: 'whatsapp' -> Output: {'type': 'open_something', 'target': 'whatsapp'}
+[HANDLE] Intent: open_something, Data: {'type': 'open_something', 'target': 'whatsapp'}
+[LISTEN] 2025-12-13 15:27:29.950442: close WhatsApp
+[PARSE] Input: 'close whatsapp'
+[AI-NLU] Input: 'close whatsapp' -> Output: {'type': 'exit'}
+[HANDLE] Intent: exit, Data: {'type': 'exit'}
+[HANDLE] Intent: memory_set, Data: {'type': 'memory_set', 'key': 'user_name', 'value': 'Tony Stark'}
+[LISTEN] 2025-12-13 15:38:37.577808: open WhatsApp and send hi to Subbi
+[PARSE] Input: 'open whatsapp'
+[HANDLE] Intent: open_something, Data: {'raw': 'open whatsapp', 'type': 'open_something', 'target': 'whatsapp'}
+[PARSE] Input: 'send hi to subbi'
+[HANDLE] Intent: whatsapp_msg, Data: {'raw': 'send hi to subbi', 'type': 'whatsapp_msg', 'msg': 'hi', 'contact': 'subbi'}
+[LISTEN] 2025-12-13 15:39:10.346302: do nothing
+[PARSE] Input: 'do nothing'
+[LISTEN] 2025-12-13 15:40:21.305554: my name is Ankit please remember
+[PARSE] Input: 'my name is ankit please remember'
+[AI-NLU] Input: 'my name is ankit please remember' -> Output: {'type': 'memory_set', 'key': 'user_name', 'value': 'ankit'}
+[HANDLE] Intent: memory_set, Data: {'type': 'memory_set', 'key': 'user_name', 'value': 'ankit'}
+[LISTEN] 2025-12-13 15:40:38.408213: what's my name
+[PARSE] Input: 'what's my name'
+[AI-NLU] Input: 'what's my name' -> Output: {'type': 'memory_get', 'key': 'user_name'}
+[HANDLE] Intent: memory_get, Data: {'type': 'memory_get', 'key': 'user_name'}
+[LISTEN] 2025-12-13 15:41:39.537973: what's my name
+[PARSE] Input: 'what's my name'
+[AI-NLU] Input: 'what's my name' -> Output: {'type': 'memory_get', 'key': 'user_name'}
+[HANDLE] Intent: memory_get, Data: {'type': 'memory_get', 'key': 'user_name'}
+[LISTEN] 2025-12-13 15:42:11.179387: click my picture
+[PARSE] Input: 'click my picture'
+[AI-NLU] Input: 'click my picture' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[LISTEN] 2025-12-13 15:45:48.596034: say cheese
+[PARSE] Input: 'say cheese'
+[AI-NLU] Input: 'say cheese' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[LISTEN] 2025-12-13 15:46:02.679445: click my picture
+[PARSE] Input: 'click my picture'
+[HANDLE] Intent: vision_capture, Data: {'raw': 'click my picture', 'type': 'vision_capture'}
+[LISTEN] 2025-12-13 15:46:16.363423: start recording me
+[PARSE] Input: 'start recording me'
+[AI-NLU] Input: 'start recording me' -> Output: {'type': 'vision_control', 'action': 'start', 'mode': 'monitoring'}
+[HANDLE] Intent: vision_control, Data: {'type': 'vision_control', 'action': 'start', 'mode': 'monitoring'}
+[LISTEN] 2025-12-13 15:46:37.988359: stop recording me
+[PARSE] Input: 'stop recording me'
+[AI-NLU] Input: 'stop recording me' -> Output: {'type': 'vision_control', 'action': 'stop', 'mode': 'monitoring'}
+[HANDLE] Intent: vision_control, Data: {'type': 'vision_control', 'action': 'stop', 'mode': 'monitoring'}
+[LISTEN] 2025-12-13 15:46:46.905687: open chat GPT
+[PARSE] Input: 'open chat gpt'
+[HANDLE] Intent: open_something, Data: {'raw': 'open chat gpt', 'type': 'open_something', 'target': 'chat gpt'}
+[LISTEN] 2025-12-13 15:47:08.669933: say hi
+[PARSE] Input: 'say hi'
+[AI-NLU] Input: 'say hi' -> Output: {'type': 'greeting'}
+[HANDLE] Intent: greeting, Data: {'type': 'greeting'}
+[LISTEN] 2025-12-13 15:47:26.292382: tell me a joke
+[PARSE] Input: 'tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:49:34.255606: tell me a joke in Kannada
+[PARSE] Input: 'tell me a joke in kannada'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke in kannada', 'type': 'joke', 'language': 'kannada'}
+[LISTEN] 2025-12-13 15:49:47.900483: tell me a joke in English
+[PARSE] Input: 'tell me a joke in english'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke in english', 'type': 'joke', 'language': 'english'}
+[LISTEN] 2025-12-13 15:50:00.722290: tell me a joke
+[PARSE] Input: 'tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:51:47.815834: tell me a joke
+[PARSE] Input: 'tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:52:03.900993: you can tell me a joke
+[PARSE] Input: 'you can tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'you can tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:52:22.578116: speak you can tell me a joke
+[PARSE] Input: 'speak you can tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'speak you can tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:52:45.146142: not funny
+[PARSE] Input: 'not funny'
+[HANDLE] Intent: joke, Data: {'raw': 'not funny', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:52:57.069607: still not funny
+[PARSE] Input: 'still not funny'
+[HANDLE] Intent: joke, Data: {'raw': 'still not funny', 'type': 'joke'}
+[LISTEN] 2025-12-13 15:53:10.922613: this one was good
+[PARSE] Input: 'this one was good'
+[AI-NLU] Input: 'this one was good' -> Output: {'type': 'unknown'}
+[HANDLE] Intent: unknown, Data: {'type': 'unknown'}
+[LISTEN] 2025-12-13 15:53:24.086929: search for Ishq song
+[PARSE] Input: 'search for ishq song'
+[HANDLE] Intent: web_search, Data: {'raw': 'search for ishq song', 'type': 'web_search', 'query': 'for ishq song'}
+[LISTEN] 2025-12-13 15:53:34.441492: who is carryminati
+[PARSE] Input: 'who is carryminati'
+[HANDLE] Intent: web_search, Data: {'raw': 'who is carryminati', 'type': 'web_search', 'query': 'who is carryminati'}
+[LISTEN] 2025-12-13 18:17:22.107930: tell me a joke
+[PARSE] Input: 'tell me a joke'
+[HANDLE] Intent: joke, Data: {'raw': 'tell me a joke', 'type': 'joke'}
+[LISTEN] 2025-12-13 18:18:27.308987: open camera please
+[PARSE] Input: 'open camera please'
+[HANDLE] Intent: open_something, Data: {'raw': 'open camera please', 'type': 'open_something', 'target': 'camera'}
+[LISTEN] 2025-12-13 21:06:29.232770: hello
+[PARSE] Input: 'hello'
+[HANDLE] Intent: greeting, Data: {'raw': 'hello', 'type': 'greeting'}
+[LISTEN] 2025-12-13 21:10:12.007187: what's my name
+[PARSE] Input: 'what's my name'
+[HANDLE] Intent: identity, Data: {'raw': "what's my name", 'type': 'identity'}
+[LISTEN] 2025-12-13 21:10:53.172340: hu r u
+[PARSE] Input: 'hu r u'
+[AI-NLU] Input: 'hu r u' -> Output: {'type': 'research_topic', 'query': 'who is you'}
+[HANDLE] Intent: research_topic, Data: {'type': 'research_topic', 'query': 'who is you'}
+[LISTEN] 2025-12-13 21:12:01.861674: click my picture
+[PARSE] Input: 'click my picture'
+[HANDLE] Intent: vision_capture, Data: {'raw': 'click my picture', 'type': 'vision_capture'}

@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "notepad": "notepad.exe",
+    "calculator": "calc.exe",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "whatsapp": "explorer.exe whatsapp://"
+  },
+  "web_shortcuts": {
+    "youtube": "https://www.youtube.com",
+    "google": "https://www.google.com"
+  },
+  "wake_word": "jarvis",
+  "ai_provider": "gemini",
+  "ollama_model": "llama3:latest",
+  "GEMINI_API_KEY": "AIzaSyD80j_Isgu0Ood4gi0Np3yuAfQOykAFZ4w"
+}

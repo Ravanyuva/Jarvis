@@ -1,0 +1,10 @@
+--- Test Summary ---
+Input: 'open youtube' -> Intent: open_something [PASS]
+Input: 'open youtube please' -> Intent: open_something [PASS]
+Input: 'can you play some music' -> Intent: unknown [FAIL: Expected play_music]
+Input: 'shutdown the system please' -> Intent: system_control [PASS]
+Input: 'what is the time' -> Intent: get_time [PASS]
+Input: 'open virtual keyboard' -> Intent: vision_control [PASS]
+Input: 'virtual keyboard' -> Intent: vision_control [PASS]
+Input: 'shutdown' -> Intent: system_control [PASS]
+Input: 'play ishq song from youtube' -> Intent: play_music [PASS]
